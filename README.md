@@ -22,7 +22,7 @@ STEP 6: Use zscore of to remove outliers
 
 
             
-# DATA CLEANIN
+# DATA CLEANING
 ```
 import pandas as pd
 import numpy as np
