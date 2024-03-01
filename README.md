@@ -30,12 +30,14 @@ import matplotlib.pyplot as plt
 data = pd.read_csv("/content/SAMPLEIDS.csv")
 data.head()
 ```
-![Screenshot (222)](https://github.com/aparnabalasubrmanian/exno1/assets/123351172/7b656242-baea-4e9d-ab48-8eabef6a8814)
+![307660493-2e6f57eb-a0eb-46c0-80b6-78ef2ff9c3b4](https://github.com/aparnabalasubrmanian/exno1/assets/123351172/87017457-6bc6-447e-b68d-7ce0e74bfdeb)
+
 ```
 data = pd.get_dummies(data)
 data.isnull().sum()
 ```
-![Screenshot (223)](https://github.com/aparnabalasubrmanian/exno1/assets/123351172/b95be498-7dcf-4f1b-b8fa-18dd6c961728)
+![307660704-b11b71a8-0335-4acf-8e69-555a75bacf24](https://github.com/aparnabalasubrmanian/exno1/assets/123351172/21080b5a-61e4-4afb-86c4-1784ed9ccad5)
+
 ```
 columns_with_null = data.columns[data.isnull().any()]
 import seaborn as sns
